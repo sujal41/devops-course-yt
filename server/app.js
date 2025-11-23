@@ -11,4 +11,4 @@ app.listen(8080, () => {
   console.log('server is live on http://localhost:8080');
 });
 
-const name = "server";
+const new_name = "server 1";
