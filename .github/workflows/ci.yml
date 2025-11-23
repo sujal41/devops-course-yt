@@ -25,7 +25,7 @@ jobs:
           node-version: 20
 
       - name: Install backend dependencies
-        wokring-directory: server
+        working-directory: server
         run: npm ci
 
       - name: Lint backend
@@ -36,7 +36,7 @@ jobs:
         working-directory: client/sample-client
         run: npm ci
 
-      - name: Lint backend
+      - name: Lint frontend
         working-directory: client/sample-client
         run: npm run lint -- --max-warnings=0
 
