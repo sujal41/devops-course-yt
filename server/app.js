@@ -12,3 +12,4 @@ app.listen(8080, () => {
 });
 
 const new_name = "server 1";
+console.log(new_name);
