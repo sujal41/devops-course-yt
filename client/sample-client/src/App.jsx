@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <h1>Vite + React</h1>
+      <h1>Sample MERN-DevOps App</h1>
       <p>Backend says: {message}</p>
       <small>Update: CD implemented</small>
     </div>
