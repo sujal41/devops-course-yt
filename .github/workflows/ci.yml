@@ -47,6 +47,10 @@ jobs:
         run: docker build -t frontend ./client/sample-client
 
   deploy:
+    # you have to write build-and-lint else both jobs will work parallel
+    needs: build-and-lint  
+    # you have to write push only , so it will execute only after push
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
 
     steps:
