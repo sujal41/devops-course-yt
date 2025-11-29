@@ -16,6 +16,7 @@ function App() {
       <h1>Sample MERN-DevOps App</h1>
       <p>Backend says: {message}</p>
       <small>Update: CD implemented</small>
+      <br />
       <small>More Features Coming Soon !</small>
     </div>
   );
