@@ -15,6 +15,7 @@ function App() {
     <div>
       <h1>Vite + React</h1>
       <p>Backend says: {message}</p>
+      <small>Update: CD implemented</small>
     </div>
   );
 }
